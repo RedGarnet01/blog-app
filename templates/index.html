@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+  <!-- Hero Section-->
+  {% include "index_snippets/hero.html" %}
+
+  <!-- Intro Section-->
+  {% include "index_snippets/intro.html" %}
+
+  <!-- Post -->
+  {% include "index_snippets/index_post.html" %}
+
+  <!-- Divider Section-->
+  {% include "index_snippets/divider.html" %}
+
+  <!-- Latest Posts -->
+  {% include "index_snippets/latest_post.html" %}
+
+  <!-- Newsletter Section-->
+  {% include "index_snippets/newsletter.html" %}
+
+  <!-- Gallery Section-->
+  {% include "index_snippets/gallery.html" %}
+
+{% endblock content %}
