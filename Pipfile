@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 pillow = "*"
+django-tinymce4-lite = "*"
 
 [requires]
 python_version = "3.7"

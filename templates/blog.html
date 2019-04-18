@@ -68,7 +68,8 @@
           </nav>
         </div>
       </main>
-      {% include 'sidebar.html' %}
+      {% include 'sidebar.html' with most_recent=most_recent category_count=category_count%}
+      <!-- with most_recent = most_recent category_count = category_count -->
     </div>
   </div>
 {% endblock content %}
